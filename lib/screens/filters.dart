@@ -29,7 +29,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
     super.initState();
     _glutenFreeFilterSet = widget.currentFilters[Filter.glutenFree]!;
     _lactoseFreeFilterSet = widget.currentFilters[Filter.lactoseFree]!;
-    _veganFreeFilterSet = widget.currentFilters[Filter.vegetarian]!;
+    _vegetarianFilterSet = widget.currentFilters[Filter.vegetarian]!;
     _veganFreeFilterSet = widget.currentFilters[Filter.vegan]!;
   }
 
